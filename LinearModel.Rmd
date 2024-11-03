@@ -153,7 +153,13 @@ anova(model.2,model.3)
 
 Our p-value is 0.000000001495. Models 2's errors add up to 243.07. This models is also smaller than model 3 and less accurate, another significant difference. Our difference is 54.639. Model 3 is still the most accurate model of the 2 models. 
 
+### Model1~Model2
 
+```{r}
+anova(model.1,model.2)
+```
+
+The sum of squared errors of model 1 has less errors than model 2. The difference of the 2 models is -25.189.
 
 
 
