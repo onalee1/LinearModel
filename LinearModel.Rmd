@@ -55,3 +55,10 @@ target<-data.frame(ARM=90, GRIP=90)
 predict(model.1,target,interval=c("prediction"))
 ```
   Our plots prediction is 0.8155096. According to the prediction the values will be between -1.617843 and 3.248863.
+  
+### Linear Fit Model1
+
+```{r}
+basicNN + geom_point() + ggtitle("SIMS~ARM")+ theme(plot.title = element_text(hjust = 0.5, size = 20))+ geom_smooth(method=lm)
+```
+
