@@ -161,7 +161,9 @@ anova(model.1,model.2)
 
 The sum of squared errors of model 1 has less errors than model 2. The difference of the 2 models is -25.189.
 
+### Discussion and Conclusion
 
+First I imported the data from the given website. I then manipulated the data into 3 different models. Model 1 is SIMS~ARM, model 2 is SIMS~GRIP, model 3 is SIMS~ARM+GRIP. We used prediction code blocks to visualize the estimated values alongside scatter plots to see the line of best fit. We then used anova at the end to compare all 3 models. The analysis showed that model 3 had the best accuracy out of all 3.
 
 
 
