@@ -105,7 +105,16 @@ Model2 is predicted to be -0.7180063. The prediction values will be between -3.2
 basicNN + geom_point() + ggtitle("SIMS~GRIP")+ theme(plot.title = element_text(hjust = 0.5, size = 20))+ geom_smooth(method=lm)
 ```
 
+### Model3: SIMS~ARM+GRIP
 
+### Numerical Results
+
+```{r}
+cor(SIMS~ARM,data=data)
+cor(SIMS~GRIP,data=data)
+cor(SIMS~ARM+GRIP,data=data)
+```
+The value is higher than the other 2 models. Model 3 has a very high positive correlation.
 
 
 
