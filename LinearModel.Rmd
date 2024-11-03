@@ -73,3 +73,13 @@ basicNN + geom_point() + ggtitle("SIMS~GRIP")+ theme(plot.title = element_text(h
 ```
 
 The scatter plot shows a positive slope going upright. This is a visual correlation between SIMS~GRIP.
+
+### Numerical Results
+
+```{r}
+cor(SIMS~GRIP,data=data)
+```
+
+The correlation value is close to 1 which is positive. This shows a high correlation.
+
+
