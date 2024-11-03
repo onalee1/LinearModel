@@ -1,6 +1,6 @@
 ---
 title: "WriteUp Linear Model with prediction"
-author: "Onlalee Garusinghe"
+author: "Onalee Garusinghe"
 date: "2024-10-24"
 output: html_document
 ---
@@ -24,6 +24,7 @@ basicNN <- ggplot(data,aes(y=SIMS,x=ARM))
 basicNN + geom_point() + ggtitle("SIMS vs ARM") + theme(plot.title = element_text(hjust = 0.5, size = 20))
 ```
 
+  This scatter plot has a positive slope going up. This shows the average amount of strength lies withing 50 and 100. What the plot describes is the relation of arm strength for the select employees.
 
 
 
