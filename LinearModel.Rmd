@@ -99,7 +99,11 @@ predict(model.2,target,interval=c("prediction"))
 ```
 Model2 is predicted to be -0.7180063. The prediction values will be between -3.292089 and 1.856077.
 
+### Linear Fit Model2
 
+```{r}
+basicNN + geom_point() + ggtitle("SIMS~GRIP")+ theme(plot.title = element_text(hjust = 0.5, size = 20))+ geom_smooth(method=lm)
+```
 
 
 
