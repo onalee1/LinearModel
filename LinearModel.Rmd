@@ -82,4 +82,20 @@ cor(SIMS~GRIP,data=data)
 
 The correlation value is close to 1 which is positive. This shows a high correlation.
 
+### Inferential Results
+  
+```{r}
+model.2 <- lm(SIMS~GRIP,data=data)
+summary.lm(model.2)
+```
+
+Our estimated equation for model2 is SIMS = 0.045463GRIP -4.809675 for our line of best fit.
+
+
+
+
+
+
+
+
 
