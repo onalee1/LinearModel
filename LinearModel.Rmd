@@ -26,5 +26,12 @@ basicNN + geom_point() + ggtitle("SIMS vs ARM") + theme(plot.title = element_tex
 
   This scatter plot has a positive slope going up. This shows the average amount of strength lies withing 50 and 100. What the plot describes is the relation of arm strength for the select employees.
 
+### Numerical Results
+
+```{r}
+cor(SIMS~ARM,data=data)
+```
+
+This has a high positive correlation for SIMS~ARM. The closer to 1, the results get a higher correlation. Because of this, we can say that they are related to each other.
 
 
